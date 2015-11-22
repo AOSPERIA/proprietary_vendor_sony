@@ -17,8 +17,5 @@
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     libtime_genoff
-
-PRODUCT_PACKAGES += \
-    libta
 	
 $(call inherit-product, vendor/sony/tulip/tulip-vendor-blobs.mk)
